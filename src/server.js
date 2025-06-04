@@ -1,12 +1,13 @@
-import app from './app.js';
-import config from './config.js';
+import app from "./app.js";
+import config from "./config.js";
+import ServerlessHttp from "serverless-http";
 
 // Debug das variáveis de ambiente
-console.log('=== DEBUG VARIÁVEIS DE AMBIENTE ===');
-console.log('process.env.PORT:', process.env.PORT);
-console.log('process.env.PIP2APN_PORT:', process.env.PIP2APN_PORT);
-console.log('config.port:', config.port);
-console.log('=====================================');
+console.log("=== DEBUG VARIÁVEIS DE AMBIENTE ===");
+console.log("process.env.PORT:", process.env.PORT);
+console.log("process.env.PIP2APN_PORT:", process.env.PIP2APN_PORT);
+console.log("config.port:", config.port);
+console.log("=====================================");
 
 const PORT = process.env.PORT || process.env.PIP2APN_PORT || config.port || 3001;
 
@@ -22,9 +23,15 @@ process
     process.exit(1);
   });
 
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
-  console.log(`Acesse em http://localhost:${PORT}`);
-  console.log(`Versão: ${process.env.npm_package_version || '1.0.5'}`);
-  console.log(`Deploy timestamp: ${new Date().toISOString()}`);
-});
+const isServerless = process.env.AWS_LAMBDA_FUNCTION_NAME;
+
+if (!isServerless) {
+  app.listen(PORT, "0.0.0.0", () => {
+    console.log(`Servidor rodando na porta ${PORT}`);
+    console.log(`Acesse em http://localhost:${PORT}`);
+    console.log(`Versão: ${process.env.npm_package_version || "1.0.5"}`);
+    console.log(`Deploy timestamp: ${new Date().toISOString()}`);
+  });
+}
+
+export const handler = ServerlessHttp(app);
