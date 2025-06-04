@@ -1,4 +1,5 @@
 version: 1
+runtime: nodejs:22 # Define o runtime do Node.js para a versão 22
 backend:
   phases:
     preBuild:
