@@ -10,7 +10,7 @@ frontend:
   artifacts:
     baseDirectory: .
     files:
-      - '**/*'
+      - "**/*"
 backend:
   phases:
     preBuild:
@@ -20,7 +20,7 @@ backend:
     build:
       commands:
         - echo "Build completed"
-        - echo "PORT environment variable: $PORT"
+        - echo "PORT environment variable is $PORT"
     postBuild:
       commands:
         - echo "Starting server..."
@@ -28,6 +28,6 @@ backend:
   artifacts:
     baseDirectory: .
     files:
-      - '**/*'
-      - node_modules/**/*
+      - "**/*"
+      - "node_modules/**/*"
 
