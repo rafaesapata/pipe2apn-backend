@@ -8,22 +8,14 @@ backend:
     build:
       commands:
         - echo "Build completed"
+        - echo "PORT environment variable: $PORT"
+    postBuild:
+      commands:
+        - echo "Starting server..."
+        - npm start &
   artifacts:
     baseDirectory: .
     files:
       - '**/*'
       - node_modules/**/*
-frontend:
-  phases:
-    preBuild:
-      commands:
-        - nvm use
-        - npm ci
-    build:
-      commands:
-        - npm run start
-  artifacts:
-    baseDirectory: .
-    files:
-      - '**/*'
 
