@@ -3,6 +3,7 @@ backend:
   phases:
     preBuild:
       commands:
+        - nvm use
         - npm ci
     build:
       commands:
@@ -16,6 +17,7 @@ frontend:
   phases:
     preBuild:
       commands:
+        - nvm use
         - npm ci
     build:
       commands:
