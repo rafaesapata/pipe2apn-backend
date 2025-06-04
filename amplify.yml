@@ -1,4 +1,16 @@
 version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - echo "Frontend not needed - this is a backend API"
+    build:
+      commands:
+        - echo "No frontend build required"
+  artifacts:
+    baseDirectory: .
+    files:
+      - '**/*'
 backend:
   phases:
     preBuild:
