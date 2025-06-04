@@ -24,7 +24,7 @@ backend:
     postBuild:
       commands:
         - echo "Starting server..."
-        - npm start &
+        - PORT=$PORT npm start &
   artifacts:
     baseDirectory: .
     files:
