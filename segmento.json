@@ -1,0 +1,353 @@
+[
+    {
+      "id": 108,
+      "label": "Administração de serviços",
+      "industryVertical": "Other"
+    },
+    {
+      "id": 48,
+      "label": "Aéreo",
+      "industryVertical": "Aerospace"
+    },
+    {
+      "id": 49,
+      "label": "Agrícola",
+      "industryVertical": "Agriculture"
+    },
+    {
+      "id": 50,
+      "label": "Arquitetura e planejamento",
+      "industryVertical": "Real Estate & Construction"
+    },
+    {
+      "id": 51,
+      "label": "Alimentos (Comidas e Bebidas)",
+      "industryVertical": "Consumer Goods"
+    },
+    {
+      "id": 52,
+      "label": "Automotivo",
+      "industryVertical": "Automotive"
+    },
+    {
+      "id": 53,
+      "label": "Automação Industrial",
+      "industryVertical": "Manufacturing"
+    },
+    {
+      "id": 195,
+      "label": "Biotecnologia",
+      "industryVertical": "Life Sciences"
+    },
+    {
+      "id": 107,
+      "label": "Bens de consumo",
+      "industryVertical": "Consumer Goods"
+    },
+    {
+      "id": 54,
+      "label": "Beleza e Cosméticos",
+      "industryVertical": "Consumer Goods"
+    },
+    {
+      "id": 55,
+      "label": "Consultoria",
+      "industryVertical": "Professional Services"
+    },
+    {
+      "id": 133,
+      "label": "Contabilidade",
+      "industryVertical": "Professional Services"
+    },
+    {
+      "id": 56,
+      "label": "Construção Civil",
+      "industryVertical": "Real Estate & Construction"
+    },
+    {
+      "id": 191,
+      "label": "Construção Naval",
+      "industryVertical": "Manufacturing"
+    },
+    {
+      "id": 57,
+      "label": "Defesa e espaço",
+      "industryVertical": "Aerospace"
+    },
+    {
+      "id": 58,
+      "label": "Dispositivos médicos",
+      "industryVertical": "Healthcare"
+    },
+    {
+      "id": 59,
+      "label": "Ecommerce",
+      "industryVertical": "Retail"
+    },
+    {
+      "id": 60,
+      "label": "Educação",
+      "industryVertical": "Education"
+    },
+    {
+      "id": 61,
+      "label": "Entretenimento",
+      "industryVertical": "Media & Entertainment"
+    },
+    {
+      "id": 62,
+      "label": "Energia",
+      "industryVertical": "Energy - Power & Utilities"
+    },
+    {
+      "id": 63,
+      "label": "Equipamentos (Máquinas)",
+      "industryVertical": "Manufacturing"
+    },
+    {
+      "id": 197,
+      "label": "Equipamentos Médicos",
+      "industryVertical": "Healthcare"
+    },
+    {
+      "id": 64,
+      "label": "Esportes",
+      "industryVertical": "Media & Entertainment"
+    },
+    {
+      "id": 65,
+      "label": "Estética",
+      "industryVertical": "Consumer Goods"
+    },
+    {
+      "id": 66,
+      "label": "Eventos",
+      "industryVertical": "Marketing & Advertising"
+    },
+    {
+      "id": 67,
+      "label": "Franquias",
+      "industryVertical": "Retail"
+    },
+    {
+      "id": 68,
+      "label": "Farmacêutico",
+      "industryVertical": "Life Sciences"
+    },
+    {
+      "id": 69,
+      "label": "Financeiro (Bancos, Fintechs, Instituições Financeiras)",
+      "industryVertical": "Financial Services"
+    },
+    {
+      "id": 70,
+      "label": "Governo e Órgãos Públicos",
+      "industryVertical": "Government"
+    },
+    {
+      "id": 71,
+      "label": "Grupo Multisetorial",
+      "industryVertical": "Other"
+    },
+    {
+      "id": 72,
+      "label": "Hardware",
+      "industryVertical": "Computers & Electronics"
+    },
+    {
+      "id": 73,
+      "label": "Hoteleiro",
+      "industryVertical": "Travel"
+    },
+    {
+      "id": 74,
+      "label": "Imobiliário",
+      "industryVertical": "Real Estate & Construction"
+    },
+    {
+      "id": 224,
+      "label": "Indústria",
+      "industryVertical": "Manufacturing"
+    },
+    {
+      "id": 100,
+      "label": "Indústria Eletrônicos",
+      "industryVertical": "Computers & Electronics"
+    },
+    {
+      "id": 109,
+      "label": "Indústria de Máquinas",
+      "industryVertical": "Manufacturing"
+    },
+    {
+      "id": 223,
+      "label": "Indústria de Móveis",
+      "industryVertical": "Manufacturing"
+    },
+    {
+      "id": 102,
+      "label": "Indústria Química",
+      "industryVertical": "Manufacturing"
+    },
+    {
+      "id": 75,
+      "label": "Indústria Têxtil",
+      "industryVertical": "Manufacturing"
+    },
+    {
+      "id": 151,
+      "label": "Internet - Provedor",
+      "industryVertical": "Software & Internet"
+    },
+    {
+      "id": 76,
+      "label": "Jurídico",
+      "industryVertical": "Professional Services"
+    },
+    {
+      "id": 77,
+      "label": "Jogos",
+      "industryVertical": "Gaming"
+    },
+    {
+      "id": 78,
+      "label": "Logística",
+      "industryVertical": "Transportation & Logistics"
+    },
+    {
+      "id": 79,
+      "label": "Manufatura Eletroeletrônicos",
+      "industryVertical": "Manufacturing"
+    },
+    {
+      "id": 80,
+      "label": "Mineração e Metais",
+      "industryVertical": "Mining"
+    },
+    {
+      "id": 103,
+      "label": "Materiais de Construção",
+      "industryVertical": "Real Estate & Construction"
+    },
+    {
+      "id": 198,
+      "label": "Odontologia",
+      "industryVertical": "Healthcare"
+    },
+    {
+      "id": 81,
+      "label": "ONG",
+      "industryVertical": "Non-Profit Organization"
+    },
+    {
+      "id": 134,
+      "label": "Papel e produtos florestais",
+      "industryVertical": "Manufacturing"
+    },
+    {
+      "id": 82,
+      "label": "Petróleo",
+      "industryVertical": "Energy - Oil & Gas"
+    },
+    {
+      "id": 83,
+      "label": "Petroquímica",
+      "industryVertical": "Energy - Oil & Gas"
+    },
+    {
+      "id": 84,
+      "label": "Publicidade e Comunicação",
+      "industryVertical": "Marketing & Advertising"
+    },
+    {
+      "id": 85,
+      "label": "Recursos Humanos",
+      "industryVertical": "Professional Services"
+    },
+    {
+      "id": 135,
+      "label": "Restaurantes",
+      "industryVertical": "Travel"
+    },
+    {
+      "id": 86,
+      "label": "Saúde",
+      "industryVertical": "Healthcare"
+    },
+    {
+      "id": 87,
+      "label": "Seguros",
+      "industryVertical": "Financial Services"
+    },
+    {
+      "id": 101,
+      "label": "Serviços Ambientais",
+      "industryVertical": "Professional Services"
+    },
+    {
+      "id": 88,
+      "label": "Serviços Financeiros",
+      "industryVertical": "Financial Services"
+    },
+    {
+      "id": 89,
+      "label": "Siderurgia",
+      "industryVertical": "Manufacturing"
+    },
+    {
+      "id": 90,
+      "label": "Supermercados",
+      "industryVertical": "Retail"
+    },
+    {
+      "id": 91,
+      "label": "Software - SaaS",
+      "industryVertical": "Software & Internet"
+    },
+    {
+      "id": 196,
+      "label": "Startup",
+      "industryVertical": "Software & Internet"
+    },
+    {
+      "id": 92,
+      "label": "Tecnologia da informação",
+      "industryVertical": "Software & Internet"
+    },
+    {
+      "id": 93,
+      "label": "Telecom",
+      "industryVertical": "Telecommunications"
+    },
+    {
+      "id": 94,
+      "label": "Transportes e Logística",
+      "industryVertical": "Transportation & Logistics"
+    },
+    {
+      "id": 95,
+      "label": "Transporte Marítimo",
+      "industryVertical": "Transportation & Logistics"
+    },
+    {
+      "id": 96,
+      "label": "Turismo",
+      "industryVertical": "Travel"
+    },
+    {
+      "id": 97,
+      "label": "Varejo",
+      "industryVertical": "Retail"
+    },
+    {
+      "id": 98,
+      "label": "Varejo - Moda (Lojas Multimarcas)",
+      "industryVertical": "Retail"
+    },
+    {
+      "id": 99,
+      "label": "Veterinária",
+      "industryVertical": "Healthcare"
+    }
+  ]
+  

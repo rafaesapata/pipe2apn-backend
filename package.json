@@ -1,0 +1,38 @@
+{
+  "name": "pipe2apn-backend",
+  "version": "1.0.1",
+  "description": "Backend para integração Pipedrive e AWS Partner Network - Deploy Amplify",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "build": "echo 'Build completed for Amplify'",
+    "postinstall": "echo 'Dependencies installed successfully'"
+  },
+  "dependencies": {
+    "@aws-crypto/sha256-js": "^5.2.0",
+    "@aws-sdk/client-partnercentral-selling": "^3.817.0",
+    "@aws-sdk/credential-provider-env": "^3.810.0",
+    "@aws-sdk/credential-provider-node": "^3.810.0",
+    "@aws-sdk/hash-node": "^3.370.0",
+    "@aws-sdk/protocol-http": "^3.370.0",
+    "@aws-sdk/signature-v4": "^3.370.0",
+    "axios": "^1.9.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.5.0",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "pipedrive": "^27.0.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

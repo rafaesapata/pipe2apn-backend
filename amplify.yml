@@ -1,0 +1,27 @@
+version: 1
+backend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    build:
+      commands:
+        - echo "Build completed"
+  artifacts:
+    baseDirectory: .
+    files:
+      - '**/*'
+      - node_modules/**/*
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    build:
+      commands:
+        - npm run start
+  artifacts:
+    baseDirectory: .
+    files:
+      - '**/*'
+

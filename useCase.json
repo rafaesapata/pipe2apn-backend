@@ -1,0 +1,471 @@
+[
+    {
+        "id": 512,
+        "label": "AI Machine Learning and Analytics",
+        "services": [
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050049",
+            "S-0066732",
+            "S-0043271",
+            "S-0036817"
+        ]
+    },
+    {
+        "id": 513,
+        "label": "Archiving",
+        "services": [
+            "S-0050048",
+            "S-0046479",
+            "S-0046474"
+        ]
+    },
+    {
+        "id": 514,
+        "label": "Big Data: Data Warehouse / Data Integration / ETL / Data Lake / BI",
+        "services": [
+            "S-0050048",
+            "S-0046479",
+            "S-0046474",
+            "S-0043060",
+            "S-0050049"
+        ]
+    },
+    {
+        "id": 515,
+        "label": "Blockchain",
+        "services": [
+            "S-0066732"
+        ]
+    },
+    {
+        "id": 516,
+        "label": "Business Applications & Contact Center",
+        "services": [
+            "S-0054504",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050049"
+        ]
+    },
+    {
+        "id": 517,
+        "label": "Business Applications & SAP Production",
+        "services": [
+            "S-0054504",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050049"
+        ]
+    },
+    {
+        "id": 518,
+        "label": "Business Applications: Mainframe Modernization",
+        "services": [
+            "S-0054504",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050049"
+        ]
+    },
+    {
+        "id": 519,
+        "label": "Centralized Operations Management",
+        "services": [
+            "S-0054504",
+            "S-0050049",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0050048"
+        ]
+    },
+    {
+        "id": 520,
+        "label": "Cloud Management Tools & DevOps with Continuous Integration & Continuous Delivery (CICD)",
+        "services": [
+            "S-0046479",
+            "S-0054504",
+            "S-0039888",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050049"
+        ]
+    },
+    {
+        "id": 521,
+        "label": "Cloud Management Tools",
+        "services": [
+            "S-0046479",
+            "S-0054504",
+            "S-0066732",
+            "S-0050049",
+            "S-0039888",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050048"
+        ]
+    },
+    {
+        "id": 522,
+        "label": "Configuration, Compliance & Auditing",
+        "services": [
+            "S-0046479",
+            "S-0066732",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499"
+        ]
+    },
+    {
+        "id": 523,
+        "label": "Connected Services",
+        "services": [
+            "S-0043060",
+            "S-0036817"
+        ]
+    },
+    {
+        "id": 524,
+        "label": "Containers & Serverless",
+        "services": [
+            "S-0054504",
+            "S-0039888",
+            "S-0043271",
+            "S-0036817",
+            "S-0043060",
+            "S-0039499",
+            "S-0050049"
+        ]
+    },
+    {
+        "id": 525,
+        "label": "Content Delivery & Edge Services",
+        "services": [
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050049"
+        ]
+    },
+    {
+        "id": 526,
+        "label": "Database",
+        "services": [
+            "S-0050048",
+            "S-0046479",
+            "S-0046474"
+        ]
+    },
+    {
+        "id": 527,
+        "label": "Edge Computing / End User Computing",
+        "services": [
+            "S-0043060",
+            "S-0043271",
+            "S-0039499",
+            "S-0036817"
+        ]
+    },
+    {
+        "id": 528,
+        "label": "Energy",
+        "services": [
+            "S-0043060",
+            "S-0043271",
+            "S-0039499",
+            "S-0036817"
+        ]
+    },
+    {
+        "id": 529,
+        "label": "Enterprise Governance & Controls",
+        "services": [
+            "S-0043060",
+            "S-0043271",
+            "S-0039499",
+            "S-0036817"
+        ]
+    },
+    {
+        "id": 530,
+        "label": "Enterprise Resource Planning",
+        "services": [
+            "S-0043060",
+            "S-0043271",
+            "S-0039499",
+            "S-0036817"
+        ]
+    },
+    {
+        "id": 531,
+        "label": "Financial Services",
+        "services": [
+            "S-0046479",
+            "S-0054504",
+            "S-0066732",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050049"
+        ]
+    },
+    {
+        "id": 532,
+        "label": "Healthcare and Life Sciences",
+        "services": [
+            "S-0046479",
+            "S-0054504",
+            "S-0066732",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050049"
+        ]
+    },
+    {
+        "id": 533,
+        "label": "High Performance Computing",
+        "services": [
+            "S-0046479",
+            "S-0054504",
+            "S-0066732",
+            "S-0050049",
+            "S-0039888",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050048"
+        ]
+    },
+    {
+        "id": 534,
+        "label": "Hybrid Application Platform",
+        "services": [
+            "S-0046479",
+            "S-0054504",
+            "S-0066732",
+            "S-0050049",
+            "S-0039888",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050048"
+        ]
+    },
+    {
+        "id": 535,
+        "label": "Industrial Software",
+        "services": [
+            "S-0046479",
+            "S-0054504",
+            "S-0066732",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050049"
+        ]
+    },
+    {
+        "id": 536,
+        "label": "IOT",
+        "services": [
+            "S-0066732"
+        ]
+    },
+    {
+        "id": 537,
+        "label": "Manufacturing, Supply Chain and Operations",
+        "services": [
+            "S-0046479",
+            "S-0054504",
+            "S-0066732",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050049"
+        ]
+    },
+    {
+        "id": 538,
+        "label": "Media & High performance computing (HPC)",
+        "services": [
+            "S-0046479",
+            "S-0054504",
+            "S-0066732",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050049"
+        ]
+    },
+    {
+        "id": 539,
+        "label": "Migration / Database Migration",
+        "services": [
+            "S-0046479",
+            "S-0054504",
+            "S-0050049",
+            "S-0039888",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050048"
+        ]
+    },
+    {
+        "id": 540,
+        "label": "Monitoring & Observability",
+        "services": [
+            "S-0046479",
+            "S-0054504",
+            "S-0066732",
+            "S-0043271",
+            "S-0036817",
+            "S-0043060",
+            "S-0039499"
+        ]
+    },
+    {
+        "id": 541,
+        "label": "Monitoring, logging and performance",
+        "services": [
+            "S-0046479",
+            "S-0054504",
+            "S-0066732",
+            "S-0043271",
+            "S-0036817",
+            "S-0043060",
+            "S-0039499"
+        ]
+    },
+    {
+        "id": 542,
+        "label": "Networking",
+        "services": [
+            "S-0043271",
+            "S-0036817"
+        ]
+    },
+    {
+        "id": 543,
+        "label": "Outpost",
+        "services": [
+            "S-0043271",
+            "S-0036817"
+        ]
+    },
+    {
+        "id": 544,
+        "label": "SAP",
+        "services": [
+            "S-0050049",
+            "S-0039499",
+            "S-0036817"
+        ]
+    },
+    {
+        "id": 545,
+        "label": "Security & Compliance",
+        "services": [
+            "S-0066732",
+            "S-0043271",
+            "S-0036817",
+            "S-0043060",
+            "S-0039499"
+        ]
+    },
+    {
+        "id": 546,
+        "label": "Storage & Backup",
+        "services": [
+            "S-0050048",
+            "S-0046479",
+            "S-0046474"
+        ]
+    },
+    {
+        "id": 547,
+        "label": "Training",
+        "services": [
+            "S-0046479",
+            "S-0054504",
+            "S-0066732",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050049"
+        ]
+    },
+    {
+        "id": 548,
+        "label": "VMC",
+        "services": [
+            "S-0050049",
+            "S-0039499"
+        ]
+    },
+    {
+        "id": 549,
+        "label": "VMWare",
+        "services": [
+            "S-0050049",
+            "S-0039499"
+        ]
+    },
+    {
+        "id": 550,
+        "label": "Web development & DevOps",
+        "services": [
+            "S-0046479",
+            "S-0054504",
+            "S-0050049",
+            "S-0039888",
+            "S-0043271",
+            "S-0036817",
+            "S-0046474",
+            "S-0043060",
+            "S-0039499",
+            "S-0050048"
+        ]
+    }
+]
