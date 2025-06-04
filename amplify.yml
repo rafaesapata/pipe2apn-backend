@@ -1,7 +1,7 @@
 version: 1
 frontend:
   phases:
-    preBuild:Add commentMore actions
+    preBuild:
       commands:
         - echo "Frontend not needed - this is a backend API"
     build:
@@ -10,23 +10,22 @@ frontend:
   artifacts:
     baseDirectory: .
     files:
-      - '**/*'
+      - "**/*"
 backend:
   phases:
     preBuild:
       commands:
-        - echo "Instalando dependências..."
-        - npm install # Ou npm ci, se estiver usando um lockfile
+        - npm i
     build:
       commands:
-        - echo "Preparando o backend para execução..."
+        - echo "Build completed"
+        - echo "PORT environment variable is $PORT"
     postBuild:
       commands:
-        - echo "Backend pronto para deploy!"
+        - echo "Not need"
   artifacts:
-    baseDirectory: . # Diretório raiz
+    baseDirectory: .
     files:
-      - '**/*' # Inclui todos os arquivos
-  cache:
-    paths:
-      - node_modules/**/* # Cache das dependências
+      - "**/*"
+      - "node_modules/**/*"
+
