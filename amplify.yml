@@ -15,6 +15,7 @@ backend:
   phases:
     preBuild:
       commands:
+        - nvm install v22
         - nvm use v22
         - npm i
     build:
