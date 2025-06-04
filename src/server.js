@@ -26,4 +26,5 @@ app.listen(PORT, '0.0.0.0', () => {
   console.log(`Servidor rodando na porta ${PORT}`);
   console.log(`Acesse em http://localhost:${PORT}`);
   console.log(`Versão: ${process.env.npm_package_version || '1.0.5'}`);
+  console.log(`Deploy timestamp: ${new Date().toISOString()}`);
 });
