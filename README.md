@@ -30,17 +30,20 @@ Copie o arquivo `.env.example` para `.env` e configure as seguintes variáveis:
 
 ```bash
 # Pipedrive
-PIPEDRIVE_API_KEY="sua_chave_api_pipedrive"
+PIP2APN_PIPEDRIVE_API_KEY="sua_chave_api_pipedrive"
 
 # AWS
-AWS_ACCESS_KEY_ID="sua_access_key_aws"
-AWS_SECRET_ACCESS_KEY="sua_secret_key_aws"
-AWS_ACCOUNT_ID="seu_account_id_aws"
-AWS_REGION="us-east-1"
+PIP2APN_AWS_ACCESS_KEY_ID="sua_access_key_aws"
+PIP2APN_AWS_SECRET_ACCESS_KEY="sua_secret_key_aws"
+PIP2APN_AWS_ACCOUNT_ID="seu_account_id_aws"
+PIP2APN_AWS_REGION="us-east-1"
 
 # Configurações
-APN_CATALOG="Sandbox"
-PORT=3001
+PIP2APN_APN_CATALOG="Sandbox"
+PIP2APN_PORT=3001
+
+# Opcional - Taxa de conversão BRL para USD (padrão: 5.60)
+PIP2APN_BRL_TO_USD_RATE=5.60
 ```
 
 ## Instalação e Execução

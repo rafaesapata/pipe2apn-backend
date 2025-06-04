@@ -80,7 +80,7 @@ class ExportService {
                         estimatedMRR = Math.round(numericValue / 12); 
                     } else if (item.currency === 'BRL') {
                         // Usar a taxa de conversão do .env ou o valor padrão 5.60
-                        const brlToUsdRate = process.env.BRL_TO_USD_RATE ? parseFloat(process.env.BRL_TO_USD_RATE) : 5.60;
+                        const brlToUsdRate = process.env.PIP2APN_BRL_TO_USD_RATE ? parseFloat(process.env.PIP2APN_BRL_TO_USD_RATE) : 5.60;
                         estimatedMRR = Math.round((numericValue / brlToUsdRate) / 12); 
                     }
                     estimatedMRR = Math.max(0, estimatedMRR);
