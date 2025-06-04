@@ -10,7 +10,7 @@ const config = {
     region: process.env.PIP2APN_AWS_REGION || "us-east-1",
   },
   apnCatalog: process.env.PIP2APN_APN_CATALOG || "Sandbox",
-  port: process.env.PIP2APN_PORT || process.env.PORT || 3001,
+  port: process.env.PORT || process.env.PIP2APN_PORT || 3001,
   // Adicionar outras configurações conforme necessário
 };
 

@@ -40,11 +40,13 @@ PIP2APN_AWS_REGION="us-east-1"
 
 # Configurações
 PIP2APN_APN_CATALOG="Sandbox"
-PIP2APN_PORT=3001
+PIP2APN_PORT=3001  # Opcional - PORT do Amplify tem prioridade
 
 # Opcional - Taxa de conversão BRL para USD (padrão: 5.60)
 PIP2APN_BRL_TO_USD_RATE=5.60
 ```
+
+**Nota**: No AWS Amplify, a variável `PORT` é fornecida automaticamente pelo ambiente e tem prioridade sobre `PIP2APN_PORT`.
 
 ## Instalação e Execução
 
